@@ -183,7 +183,7 @@ export let getRollupConfig = (
       json({
         namedExports: false,
       }),
-      svgr(),
+      svgr({ exportType: "named", dimensions: false }),
       options.kind === "umd" &&
         alias({
           entries: getAliases(pkg.project),
