@@ -4,7 +4,7 @@ import { Plugin } from "rollup";
 import normalizePath from "normalize-path";
 import path from "path";
 
-const allowedExtensionRegex = /\.([tj]sx?|json)$/;
+const allowedExtensionRegex = /\.([tj]sx?|json|svg)$/;
 
 export function resolveErrorsPlugin(
   pkg: Package,
