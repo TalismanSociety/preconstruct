@@ -12,10 +12,11 @@ let unsafeRequire = require;
 
 export function createWorker() {
   if (shouldUseWorker) {
-    worker = new Worker(require.resolve("@preconstruct/cli/worker")) as Worker &
-      typeof import("./worker");
+    worker = new Worker(
+      require.resolve("@talismn/preconstruct-cli/worker")
+    ) as Worker & typeof import("./worker");
   } else {
-    worker = unsafeRequire("@preconstruct/cli/worker");
+    worker = unsafeRequire("@talismn/preconstruct-cli/worker");
   }
 }
 

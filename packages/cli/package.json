@@ -1,25 +1,25 @@
 {
-  "name": "@preconstruct/cli",
+  "name": "@talismn/preconstruct-cli",
   "version": "2.8.3",
   "description": "Dev and build your code painlessly in monorepos",
   "exports": {
     "./cli": {
       "types": {
-        "import": "./cli/dist/preconstruct-cli-cli.cjs.mjs",
-        "default": "./cli/dist/preconstruct-cli-cli.cjs.js"
+        "import": "./cli/dist/talismn-preconstruct-cli-cli.cjs.mjs",
+        "default": "./cli/dist/talismn-preconstruct-cli-cli.cjs.js"
       },
-      "module": "./cli/dist/preconstruct-cli-cli.esm.js",
-      "import": "./cli/dist/preconstruct-cli-cli.cjs.mjs",
-      "default": "./cli/dist/preconstruct-cli-cli.cjs.js"
+      "module": "./cli/dist/talismn-preconstruct-cli-cli.esm.js",
+      "import": "./cli/dist/talismn-preconstruct-cli-cli.cjs.mjs",
+      "default": "./cli/dist/talismn-preconstruct-cli-cli.cjs.js"
     },
     "./worker": {
       "types": {
-        "import": "./worker/dist/preconstruct-cli-worker.cjs.mjs",
-        "default": "./worker/dist/preconstruct-cli-worker.cjs.js"
+        "import": "./worker/dist/talismn-preconstruct-cli-worker.cjs.mjs",
+        "default": "./worker/dist/talismn-preconstruct-cli-worker.cjs.js"
       },
-      "module": "./worker/dist/preconstruct-cli-worker.esm.js",
-      "import": "./worker/dist/preconstruct-cli-worker.cjs.mjs",
-      "default": "./worker/dist/preconstruct-cli-worker.cjs.js"
+      "module": "./worker/dist/talismn-preconstruct-cli-worker.esm.js",
+      "import": "./worker/dist/talismn-preconstruct-cli-worker.cjs.mjs",
+      "default": "./worker/dist/talismn-preconstruct-cli-worker.cjs.js"
     },
     "./package.json": "./package.json"
   },
@@ -33,7 +33,7 @@
   "bin": {
     "preconstruct": "./bin.js"
   },
-  "repository": "https://github.com/preconstruct/preconstruct/tree/main/packages/cli",
+  "repository": "https://github.com/Talisman/preconstruct/tree/main/packages/cli",
   "license": "MIT",
   "dependencies": {
     "@babel/code-frame": "^7.5.5",

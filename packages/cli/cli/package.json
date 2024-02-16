@@ -1,4 +1,4 @@
 {
-  "main": "dist/preconstruct-cli-cli.cjs.js",
-  "module": "dist/preconstruct-cli-cli.esm.js"
+  "main": "dist/talismn-preconstruct-cli-cli.cjs.js",
+  "module": "dist/talismn-preconstruct-cli-cli.esm.js"
 }
